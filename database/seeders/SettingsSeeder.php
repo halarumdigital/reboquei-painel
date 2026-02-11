@@ -403,7 +403,7 @@ class SettingsSeeder extends Seeder
         ],            
         SettingSlug::CASH_FREE_TEST_API_KEY => [
             'category'=>SettingCategory::INSTALLATION,
-            'value' => 'TEST15950842a648ba99cac7d66b63805951',
+            'value' => '',
             'field' => SettingValueType::TEXT,
             'option_value' => null,
             'group_name' => SettingSubGroup::CASH_FREE_SETTINGS,
