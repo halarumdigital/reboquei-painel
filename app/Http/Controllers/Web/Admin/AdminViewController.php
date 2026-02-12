@@ -602,7 +602,7 @@ class AdminViewController extends BaseController
         // set default locale if none selected @TODO
 
         if(!Session::get('applocale')){
-            Session::put('applocale', 'en');
+            Session::put('applocale', 'pt-BR');
         }
 
 

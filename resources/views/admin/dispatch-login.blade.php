@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Admin login</title>
+    <title>@lang('view_pages.admin_login')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -68,7 +68,7 @@
                             <ul class="error-style"></ul>
                         </div>
                     <img src="{{ fav_icon() ?? asset('images/favicon.png') }}" alt="">
-                        <h3 class="text-center">Taxi Dispatch Panel</h3>
+                        <h3 class="text-center">@lang('view_pages.dispatch_panel')</h3>
                         <p class="login-box-msg"></p>
                         <!-- action="{{ url('api/spa/login') }}" method="post" -->
                         <form class="login_form" id="form" enctype="multipart/form-data">
@@ -79,9 +79,9 @@
                         </div> -->
                                 <div class="col-md-11 mx-auto p-0 login-email">
                                     <input type="email" style="border-radius:none;" class="form-control rounded"
-                                        name="email" id="emailaddress" required="" placeholder="Email" maxlength="74"
+                                        name="email" id="emailaddress" required="" placeholder="@lang('view_pages.email')" maxlength="74"
                                         data-validation="required length email" data-validation-length="8-74"
-                                        data-validation-error-msg-email="Please enter valid email address">
+                                        data-validation-error-msg-email="Por favor, insira um endereço de e-mail válido">
                                 </div>
                                 <span class="text-danger">{{ $errors->first('email') }}</span>
                             </div>
@@ -93,9 +93,9 @@
                       </div> -->
                                 <div class="col-md-11 mx-auto text-center p-0 login-email">
                                     <input type="password" name="password" style="border-radius:none;" required=""
-                                        id="password" class="form-control rounded" placeholder="Password" maxlength="30"
+                                        id="password" class="form-control rounded" placeholder="@lang('view_pages.password')" maxlength="30"
                                         data-validation="required length" data-validation-length="8-30"
-                                        data-validation-error-msg-length="Password should have atleast 8 characters.">
+                                        data-validation-error-msg-length="A senha deve ter pelo menos 8 caracteres.">
                                 </div>
                                 <span class="text-danger">{{ $errors->first('password') }}</span>
                             </div>
@@ -103,14 +103,14 @@
                                 <div class="col-6">
                                     <div class="checkbox">
                                         <input type="checkbox" id="basic_checkbox_1">
-                                        <label for="basic_checkbox_1">Remember Me</label>
+                                        <label for="basic_checkbox_1">@lang('view_pages.remember_me')</label>
                                     </div>
                                 </div>
 
                                 <!-- /.col -->
                                 <div class="col-12 text-center login-btn">
                                     <button class="btn btn-info btn-block margin-top-10 submit_button"
-                                        type="submit">Sign In</button>
+                                        type="submit">@lang('view_pages.sign_in')</button>
                                 </div>
                                 <!-- /.col -->
                             </div>

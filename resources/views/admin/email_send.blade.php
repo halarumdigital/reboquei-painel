@@ -225,9 +225,9 @@
                <div id="head" class="head1">
                   <div class="header-menu">
                      <div class="right-arrow1 drop-locations"><i class="fa fa-arrow-left"></i></div>
-                     <div class="drop_location">Enter drop location</div>
+                     <div class="drop_location">@lang('view_pages.enter_drop_location')</div>
                      <div class="drop_loc_heading input" style=" line-height: 46px;background: #f7f7f7;">
-                        <input type="text" class="autocomplete" id="address" placeholder="Enter address..">
+                        <input type="text" class="autocomplete" id="address" placeholder="@lang('view_pages.enter_address')">
                         <input type="hidden" value="" name="drop_lat" id="lat">
                         <input type="hidden" value="" name="drop_lng" id="lng">
                         <input type="hidden" value="" name="drop_address" id="formattedAddress">
@@ -241,7 +241,7 @@
                      <input type="hidden" value="" id="confirm_lat">
                      <input type="hidden" value="" id="confirm_lng">
                      <input type="hidden" value="" id="confirm_formattedAddress">
-                     Confirm your location
+                     Confirme sua localização
                   </div>
                </div>
             </div>
@@ -249,9 +249,9 @@
                <div id="head" class="head1">
                   <div class="header-menu">
                      <div class="right-arrow1 drop-location"><i class="fa fa-arrow-left"></i></div>
-                     <div class="drop_location">Enter Pickup location</div>
+                     <div class="drop_location">@lang('view_pages.enter_pickup_location')</div>
                      <div class="drop_loc_heading input" style=" line-height: 46px;background: #f7f7f7;">
-                        <input type="text" class="autocomplete" id="address1" placeholder="Enter address..">
+                        <input type="text" class="autocomplete" id="address1" placeholder="@lang('view_pages.enter_address')">
                         <input type="hidden" value="" name="pick_lat" id="lat1">
                         <input type="hidden" value="" name="pick_lng" id="lng1">
                         <input type="hidden" value="" name="pick_address" id="formattedAddress1">
@@ -264,7 +264,7 @@
                      <input type="hidden" value="" id="confirm_lat1">
                      <input type="hidden" value="" id="confirm_lng1">
                      <input type="hidden" value="" id="confirm_formattedAddress1">
-                     Confirm your location
+                     Confirme sua localização
                   </div>
                </div>
             </div>
@@ -293,7 +293,7 @@
                     <div class="from-details">
                         <div class="from text">@lang('view_pages.email')</div>
                         <div class="from location text placeholder">
-                            <input class="form-control input" type="text" name="email" placeholder="Enter Your Email address" value="">
+                            <input class="form-control input" type="text" name="email" placeholder="@lang('view_pages.enter_email')" value="">
                         </div>
                     </div>
                 </div>

@@ -19,8 +19,11 @@ class SetLocale
     {
         if (Session::has('applocale')) {
             App::setLocale(Session::get('applocale'));
+        } else {
+            Session::put('applocale', config('app.locale', 'pt-BR'));
+            App::setLocale(config('app.locale', 'pt-BR'));
         }
-   
+
         return $next($request);
     }
 }

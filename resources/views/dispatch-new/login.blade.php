@@ -351,16 +351,16 @@ input[type=email], input[type=password]:placeholder {
     <form class="login_form" id="form" enctype="multipart/form-data">
       <div style="position:relative;">
         <i data-feather="user" style="display:block;position:absolute;left:50;top:30;z-index:5;color:#fca503;"></i>
-        <input type="email" id="login" class="fadeIn second" name="email" maxlength="74" data-validation="required length email" data-validation-length="8-74" data-validation-error-msg-email="Please enter valid email address" placeholder="Username">
+        <input type="email" id="login" class="fadeIn second" name="email" maxlength="74" data-validation="required length email" data-validation-length="8-74" data-validation-error-msg-email="Por favor, insira um endereço de e-mail válido" placeholder="Nome de usuário">
         <br><span class="text-danger">{{ $errors->first('email') }}</span>
       </div>
       <div style="position:relative;">
         <i data-feather="lock" style="display:block;position:absolute;left:50;top:30;z-index:5;color:#fca503;"></i>
-        <input type="password" id="password" class="fadeIn third" maxlength="30" name="password" data-validation="required length" data-validation-length="8-30" data-validation-error-msg-length="Password should have at least 8 characters." placeholder="Password">
+        <input type="password" id="password" class="fadeIn third" maxlength="30" name="password" data-validation="required length" data-validation-length="8-30" data-validation-error-msg-length="A senha deve ter pelo menos 8 caracteres." placeholder="Senha">
         <br><span class="text-danger">{{ $errors->first('password') }}</span>
       </div>
 
-      <input type="submit" class="fadeIn fourth" value="Log In">
+      <input type="submit" class="fadeIn fourth" value="Entrar">
     </form>
 
 

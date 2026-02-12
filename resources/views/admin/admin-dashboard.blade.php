@@ -157,7 +157,7 @@
             <div class="col-md-2 col-6">
                 <form action="post">
                     <div class="form-group has-feedback">
-                        <input type="date" class="form-control btn btn-outline btn-dark" placeholder="From Date"
+                        <input type="date" class="form-control btn btn-outline btn-dark" placeholder="Data Inicial"
                             style="height: 45px">
                     </div>
                 </form>
@@ -165,7 +165,7 @@
             <div class="col-md-2 col-6">
                 <form action="post">
                     <div class="form-group has-feedback">
-                        <input type="date" class="form-control btn btn-outline btn-dark" placeholder="To Date"
+                        <input type="date" class="form-control btn btn-outline btn-dark" placeholder="Data Final"
                             style="height: 45px">
                     </div>
                 </form>
@@ -471,7 +471,7 @@
                                         <form action="post">
                                             <div class="form-group has-feedback">
                                                 <input type="date" class="form-control btn btn-outline btn-dark"
-                                                    placeholder="From Date" style="height: 45px">
+                                                    placeholder="Data Inicial" style="height: 45px">
                                             </div>
                                         </form>
                                     </div>
@@ -479,7 +479,7 @@
                                         <form action="post">
                                             <div class="form-group has-feedback">
                                                 <input type="date" class="form-control btn btn-outline btn-dark"
-                                                    placeholder="To Date" style="height: 45px">
+                                                    placeholder="Data Final" style="height: 45px">
                                             </div>
                                         </form>
                                     </div>
@@ -648,7 +648,7 @@
                                         <form action="post">
                                             <div class="form-group has-feedback">
                                                 <input type="date" class="form-control btn btn-outline btn-dark"
-                                                    placeholder="From Date" style="height: 45px">
+                                                    placeholder="Data Inicial" style="height: 45px">
                                             </div>
                                         </form>
                                     </div>
@@ -656,7 +656,7 @@
                                         <form action="post">
                                             <div class="form-group has-feedback">
                                                 <input type="date" class="form-control btn btn-outline btn-dark"
-                                                    placeholder="To Date" style="height: 45px">
+                                                    placeholder="Data Final" style="height: 45px">
                                             </div>
                                         </form>
                                     </div>
@@ -787,7 +787,7 @@
                                         <form action="post">
                                             <div class="form-group has-feedback">
                                                 <input type="date" class="form-control btn btn-outline btn-dark"
-                                                    placeholder="From Date" style="height: 45px">
+                                                    placeholder="Data Inicial" style="height: 45px">
                                             </div>
                                         </form>
                                     </div>
@@ -795,7 +795,7 @@
                                         <form action="post">
                                             <div class="form-group has-feedback">
                                                 <input type="date" class="form-control btn btn-outline btn-dark"
-                                                    placeholder="To Date" style="height: 45px">
+                                                    placeholder="Data Final" style="height: 45px">
                                             </div>
                                         </form>
                                     </div>
@@ -901,7 +901,7 @@
                                             <form action="post">
                                                 <div class="form-group has-feedback">
                                                     <input type="date" class="form-control btn btn-outline btn-dark"
-                                                        placeholder="From Date" style="height: 45px">
+                                                        placeholder="Data Inicial" style="height: 45px">
                                                 </div>
                                             </form>
                                         </div>
@@ -909,7 +909,7 @@
                                             <form action="post">
                                                 <div class="form-group has-feedback">
                                                     <input type="date" class="form-control btn btn-outline btn-dark"
-                                                        placeholder="To Date" style="height: 45px">
+                                                        placeholder="Data Final" style="height: 45px">
                                                 </div>
                                             </form>
                                         </div>
@@ -1137,7 +1137,7 @@
                                             <form action="post">
                                                 <div class="form-group has-feedback">
                                                     <input type="date" class="form-control btn btn-outline btn-dark"
-                                                        placeholder="From Date" style="height: 45px">
+                                                        placeholder="Data Inicial" style="height: 45px">
                                                 </div>
                                             </form>
                                         </div>
@@ -1145,7 +1145,7 @@
                                             <form action="post">
                                                 <div class="form-group has-feedback">
                                                     <input type="date" class="form-control btn btn-outline btn-dark"
-                                                        placeholder="To Date" style="height: 45px">
+                                                        placeholder="Data Final" style="height: 45px">
                                                 </div>
                                             </form>
                                         </div>

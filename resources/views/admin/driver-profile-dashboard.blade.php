@@ -286,7 +286,7 @@
                 <div class="box">
 
                     <div class="box-header with-border">
-                                <h3 class="font-weight-600">Driver Location :</h3>
+                                <h3 class="font-weight-600">@lang('view_pages.driver_location') :</h3>
                                 <ul class="box-controls pull-right">
                                     <li><a class="box-btn-close" href="#"></a></li>
                                     <li><a class="box-btn-slide" href="#"></a></li>
@@ -312,7 +312,7 @@
                 <!-- DONUT CHART -->
                 <div class="box">
                     <div class="box-header with-border">
-                        <h3 class="font-weight-600">Total earnings</h3>
+                        <h3 class="font-weight-600">@lang('view_pages.total_earnings')</h3>
                         <ul class="box-controls pull-right">
                             <li><a class="box-btn-close" href="#"></a></li>
                             <li><a class="box-btn-slide" href="#"></a></li>
@@ -441,7 +441,7 @@
                 <!-- DONUT CHART -->
                  <div class="box">
                     <div class="box-header with-border">
-                        <h3 class="font-weight-600">Trip statistics</h3>
+                        <h3 class="font-weight-600">@lang('view_pages.trip_statistics')</h3>
                         <ul class="box-controls pull-right">
                             <li><a class="box-btn-close" href="#"></a></li>
                             <li><a class="box-btn-slide" href="#"></a></li>
@@ -504,7 +504,7 @@
                     <div class="col-12">
                         <div class="box">
                             <div class="box-header with-border">
-                                <h3 class="font-weight-600">Ongoing trip Info</h3>
+                                <h3 class="font-weight-600">@lang('view_pages.ongoing_trip_info')</h3>
                                 <ul class="box-controls pull-right">
                                     <li><a class="box-btn-close" href="#"></a></li>
                                     <li><a class="box-btn-slide" href="#"></a></li>
@@ -619,7 +619,7 @@
                     <div class="col-12">
                         <div class="box">
                             <div class="box-header with-border">
-                                <h3 class="font-weight-600">Shift History</h3>
+                                <h3 class="font-weight-600">@lang('view_pages.shift_history')</h3>
                                 <ul class="box-controls pull-right">
                                     <li><a class="box-btn-close" href="#"></a></li>
                                     <li><a class="box-btn-slide" href="#"></a></li>

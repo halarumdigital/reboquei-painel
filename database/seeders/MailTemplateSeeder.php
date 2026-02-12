@@ -12,42 +12,42 @@ class MailTemplateSeeder extends Seeder
      *
      * @return void
      */
- protected $mailTemplate = [
-
+    protected $mailTemplate = [
+ 
     /*Welcome Mail*/
         [  'mail_type' => 'welcome_mail',
             'active' => 1,
-            'description' => '<p>Hello $user_name</p>
-
-            <p>Thank you for joining MI Softwares! We are thrilled to have you as a part of our community.</p>
-
-            <p>Our mission is to mobility. We hope that you will find our products/services to be useful and enjoyable.</p>
-
-            <p>To get started, please take a few moments to explore our website and familiarize yourself with our offerings. If you have any questions or concerns, our customer support team is always here to help.</p>
-
-            <p>We look forward to working with you and providing you with a top-notch experience.</p>
-
-            <p>Best regards,</p>
-
+            'description' => '<p>Olá $user_name</p>
+ 
+            <p>Obrigado por se juntar à MI Softwares! Estamos emocionados em tê-lo como parte da nossa comunidade.</p>
+ 
+            <p>Nossa missão é mobilidade. Esperamos que você encontre nossos produtos/serviços úteis e agradáveis.</p>
+ 
+            <p>Para começar, por favor, reserve alguns momentos para explorar nosso site e familiarizar-se com nossas ofertas. Se você tiver alguma dúvida ou preocupação, nossa equipe de suporte ao cliente está sempre aqui para ajudar.</p>
+ 
+            <p>Esperamos trabalhar com você e fornecer-lhe uma experiência de primeira classe.</p>
+ 
+            <p>Atenciosamente,</p>
+ 
             <p>MI Softwares</p>',
         ],
     /*Welcome Mail*/
         [  'mail_type' => 'welcome_mail_driver',
             'active' => 1,
-            'description' => '<p>Dear $user_name,</p>
-
-        <p>Congratulations on becoming a newly registered driver! We are excited to welcome you to the world of driving and wanted to take a moment to extend our warmest greetings.</p>
-
-        <p>As a registered driver, you now have the opportunity to explore new destinations, embrace independence, and experience the joys of the open road. We hope this new chapter brings you many memorable adventures and experiences.</p>
-
-        <p>Please remember to prioritize safety as you embark on your driving journey. Observe traffic laws, wear your seatbelt, and remain attentive at all times. Safe driving not only protects you but also ensures the well-being of others around you.</p>
-
-        <p>If you ever have any questions or need assistance along the way, our team is here to support you. Don&#39;t hesitate to reach out to us; we&#39;re more than happy to help.</p>
-
-        <p>Once again, congratulations on your registration! Enjoy the freedom and excitement that driving offers. We wish you safe travels and an incredible journey ahead.</p>
-
-        <p>Best regards,</p>
-
+            'description' => '<p>Prezado $user_name,</p>
+ 
+        <p>Parabéns por se tornar um motorista recém-registrado! Estamos animados em recebê-lo no mundo da direção e queríamos aproveitar a oportunidade para estender nossas mais calorosas saudações.</p>
+ 
+        <p>Como motorista registrado, você agora tem a oportunidade de explorar novos destinos, abraçar a independência e vivenciar as alegrias da estrada aberta. Esperamos que este novo capítulo traga muitas aventuras e experiências memoráveis.</p>
+ 
+        <p>Por favor, lembre-se de priorizar a segurança ao embarcar em sua jornada de direção. Observe as leis de trânsito, use o cinto de segurança e permaneça atento a todo momento. A direção segura não apenas protege você, mas também garante o bem-estar dos outros ao seu redor.</p>
+ 
+        <p>Se você alguma vez tiver alguma dúvida ou precisar de assistência ao longo do caminho, nossa equipe está aqui para apoiá-lo. Não hesite em entrar em contato conosco; estamos mais do que felizes em ajudar.</p>
+ 
+        <p>Mais uma vez, parabéns pelo seu registro! Aproveite a liberdade e empolgação que a direção oferece. Desejamos a você viagens seguras e uma jornada incrível à frente.</p>
+ 
+        <p>Atenciosamente,</p>
+ 
         <p>Tagxi</p>',
         ],
 

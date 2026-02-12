@@ -18,7 +18,7 @@ class DashboardController extends BaseController
     {
 
         if(!Session::get('applocale')){
-            Session::put('applocale', 'en');
+            Session::put('applocale', 'pt-BR');
         }
 
         // Session::put('applocale', 'en');

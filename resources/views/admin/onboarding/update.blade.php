@@ -108,13 +108,13 @@
                                     <input class="form-control" type="hidden" id="id" name="id" value="{{ old('id',$item->id) }}" required="">
                                     <div class="form-group">
                                         <label for="title">@lang('view_pages.onboarding_title') <span class="text-danger">*</span></label>
-                                        <input class="form-control" type="text" id="title" name="title" value="{{ old('title', $item->title) }}" required placeholder="Enter title" oninput="updateHeading(this.value)">
+                                        <input class="form-control" type="text" id="title" name="title" value="{{ old('title', $item->title) }}" required placeholder="@lang('view_pages.onboarding_title')" oninput="updateHeading(this.value)">
                                         <span class="text-danger"></span>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="description">@lang('view_pages.onboarding_description') <span class="text-danger">*</span></label>
-                                        <textarea class="form-control" id="description" name="description" required placeholder="Enter description" oninput="updateParagraph(this.value)"  rows="10 ">{{ $item->description }}</textarea>
+                                        <textarea class="form-control" id="description" name="description" required placeholder="@lang('view_pages.enter_description')" oninput="updateParagraph(this.value)"  rows="10 ">{{ $item->description }}</textarea>
                                       </div>
                                     <div class="form-group">
                                         <div class="col-6">

@@ -103,7 +103,7 @@
             <div class="col-md-12">
                <div class="form-group" style="border-radius:0px;">
                   <div class="col-md-10 float-left pr-0">
-                    <input type="text" class="form-control" id="" placeholder="User Name">
+                    <input type="text" class="form-control" id="" placeholder="@lang('view_pages.user_name')">
                   </div>
                   <div class="col-md-2 float-left p-0">
                     <img src="{{ asset('images/email/user.svg') }}" width="25px" style="margin-top:4px" alt="">
@@ -111,7 +111,7 @@
                 </div>
                 <div class="form-group" style="border-radius:0px;">
                   <div class="col-md-10 float-left pr-0">
-                    <input type="text" class="form-control" id="" placeholder="Mobile Number">
+                    <input type="text" class="form-control" id="" placeholder="@lang('view_pages.mobile')">
                   </div>
                   <div class="col-md-2 float-left p-0">
                     <img src="{{ asset('images/email/phone.svg') }}" width="25px" style="margin-top:4px" alt="">
@@ -119,7 +119,7 @@
                 </div>
                 <div class="form-group">
                   <div class="col-md-10 float-left pr-0">
-                    <input type="text" class="form-control"  id="pickup_location" value="{{old('pickup_location')}}" placeholder="Pickup Location" required="">
+                    <input type="text" class="form-control"  id="pickup_location" value="{{old('pickup_location')}}" placeholder="@lang('view_pages.pickup_location')" required="">
                   </div>
                   <div class="col-md-2 float-left p-0">
                     <img src="{{ asset('images/email/home.svg') }}" width="25px" style="margin-top:4px" alt="">
@@ -127,7 +127,7 @@
                 </div>
                 <div class="form-group">
                   <div class="col-md-10 float-left pr-0">
-                    <input type="text" class="form-control" id="drop_location" name="drop_location" value="{{old('drop_location')}}" required="" placeholder="Drop Location">
+                    <input type="text" class="form-control" id="drop_location" name="drop_location" value="{{old('drop_location')}}" required="" placeholder="@lang('view_pages.drop_location')">
                   </div>
                   <div class="col-md-2 float-left p-0">
                     <img src="{{ asset('images/email/location.svg') }}" width="25px" style="margin-top:4px" alt="">

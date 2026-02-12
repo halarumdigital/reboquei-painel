@@ -347,13 +347,13 @@ body {
         <p class="box-title txtInput">@lang('view_pages.location_details')</p>
                                                 <div class="input-group mar1rm">
                                                     <input class="form-control w-100 required_for_valid" type="text"
-                                                        placeholder="Pickup Location" name="pickup" id="pickup"
+                                                        placeholder="@lang('view_pages.pickup_location')" name="pickup" id="pickup"
                                                         aria-label="Username" aria-describedby="basic-addon1">
                                                   
                                                 </div>
                         <div class="input-group mar1rm">
                                                     <input class="form-control w-100 required_for_valid" type="text"
-                                                        placeholder="Drop Location" name="drop" id="drop"
+                                                        placeholder="@lang('view_pages.drop_location')" name="drop" id="drop"
                                                         aria-label="Username" aria-describedby="basic-addon1">
                                                   
                                                 </div>
@@ -407,7 +407,7 @@ body {
                                                 <div class="input-group mar1rm">
                                                 
                                                     <input class="form-control w-100 required_for_valid" type="text"
-                                                        placeholder="Pickup Location" name="pickup" id="pickup"
+                                                        placeholder="@lang('view_pages.pickup_location')" name="pickup" id="pickup"
                                                         aria-label="Username" aria-describedby="basic-addon1">
                                                   
                                                 </div>
@@ -455,13 +455,13 @@ body {
                                                 <div class="input-group mar1rm">
                                                 
                                                     <input class="form-control w-100 required_for_valid" type="text"
-                                                        placeholder="Pickup Location" name="pickup" id="pickup"
+                                                        placeholder="@lang('view_pages.pickup_location')" name="pickup" id="pickup"
                                                         aria-label="Username" aria-describedby="basic-addon1">
                                                   
                                                 </div>
                                                 <div class="input-group mar1rm">
                                                     <input class="form-control w-100 required_for_valid" type="text"
-                                                        placeholder="Drop Location" name="drop" id="drop"
+                                                        placeholder="@lang('view_pages.drop_location')" name="drop" id="drop"
                                                         aria-label="Username" aria-describedby="basic-addon1">
                                                   
                                                 </div>

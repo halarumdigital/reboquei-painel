@@ -82,9 +82,9 @@
                         </div> -->
                                 <div class="col-md-11 mx-auto p-0 login-email">
                                     <input type="email" style="border-radius:none;" class="form-control rounded"
-                                        name="email" id="emailaddress" required="" placeholder="Email" maxlength="74"
+                                        name="email" id="emailaddress" required="" placeholder="@lang('view_pages.email')" maxlength="74"
                                         data-validation="required length email" data-validation-length="8-74"
-                                        data-validation-error-msg-email="Please enter valid email address">
+                                        data-validation-error-msg-email="Por favor, insira um endereço de e-mail válido">
                                 </div>
                                 <span class="text-danger">{{ $errors->first('email') }}</span>
                             </div>
@@ -96,9 +96,9 @@
                       </div> -->
                                 <div class="col-md-11 mx-auto text-center p-0 login-email">
                                     <input type="password" name="password" style="border-radius:none;" required=""
-                                        id="password" class="form-control rounded" placeholder="Password" maxlength="30"
+                                        id="password" class="form-control rounded" placeholder="@lang('view_pages.password')" maxlength="30"
                                         data-validation="required length" data-validation-length="8-30"
-                                        data-validation-error-msg-length="Password should have atleast 8 characters.">
+                                        data-validation-error-msg-length="A senha deve ter pelo menos 8 caracteres.">
                                 </div>
                                 <span class="text-danger">{{ $errors->first('password') }}</span>
                             </div>
